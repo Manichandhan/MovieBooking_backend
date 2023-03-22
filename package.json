@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run":"nodemon app.js"
+    "prestart": "echo hey i am prestart",
+    "start":"SET NODE_ENV=development & nodemon index.js"
   },
   "author": "",
   "license": "ISC",
